@@ -1,0 +1,19 @@
+##run this file by typing the command conda env create -f interactive_env.yml
+
+name: interactive_env
+channels:
+dependencies:
+  - python
+  - jupyterlab 
+  - jupyter
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - ipywidgets
+  - flask
+  - bokeh
+  - pip:
+    - traittypes
+    - bqplot
